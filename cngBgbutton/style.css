@@ -9,13 +9,18 @@ h1 {
 }
 .btn{
     display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .button {
-    height: 70px !important;
-    width: 70px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px !important;
+    width: 90px !important;
     background-color: yellow;
-    border-radius: 50%;
+    border-radius: 5px;
     margin: 20px;
 
 }
@@ -25,8 +30,8 @@ h1 {
         background-color: rgb(14, 4, 2);
     }
 }
-#yellow{
-    background-color: yellow;
+#Random{
+    background-color: rgb(0, 255, 238);
     &:hover {
         background-color: rgb(14, 4, 2);
     }
